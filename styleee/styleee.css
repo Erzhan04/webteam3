@@ -226,4 +226,25 @@ p{
     border: 10px dashed #ffffff;
     color: antiquewhite;
     font-size: 50px;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    margin: 0 0 0 300px;
+    padding: 20px 0 0 20px;
+}
+
+.brd p{
+    font-size: 30px;
+}
+
+.sup {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
 }

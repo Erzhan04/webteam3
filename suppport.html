@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>support</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/solnce-gorod-leto-f41f477.jpg');
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: #555;
+    font-size: 30px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea {
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+
+</style>
+<body>
+<div class="sup">
+    <h1>Welcome to the support service</h1>
+    <p>Write your problem:</p>
+    <textarea id="problem" rows="4" cols="50"></textarea>
+    <button id="submitBtn">Отправить</button>
+</div>
+<script>
+    document.getElementById('submitBtn').addEventListener('click', function() {
+    var problemDescription = document.getElementById('problem').value;
+    if (problemDescription.trim() === '') {
+        alert('Пожалуйста, введите описание проблемы');
+    } else {
+        alert('Спасибо! Мы получили вашу проблему и скоро с вами свяжемся.');
+        
+    }
+});
+
+</script>
+</body>
+</html>
