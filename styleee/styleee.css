@@ -1,0 +1,229 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #f27121;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f05620;
+  }
+  
+  p {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #f27121;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+    padding: 15px;
+    background-color: #FFFFFF;
+  }
+  
+  .social-icons a.facebook {
+    color: #3b5998;
+    border-radius: 50% 30% 50% 30%/30% 50% 30% 50%;
+  }
+  
+  .social-icons a.google {
+    color: #DB4437;
+    border-radius: 50%;
+  }
+  
+  .social-icons a.instagram {
+    color: #c13584;
+    border-radius: 40% 60% 40% 60%/60% 40% 60% 40%;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+  }
+ */
+
+
+ *{
+    box-sizing: border-box;
+ }
+ a{
+    text-decoration: none;
+ }
+
+ body{
+    /* padding: 10px;
+    background-image: url('/img/1674622899_top-fon-com-p-gorodskoi-fon-dlya-prezentatsii-144.jpg');
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(to bottom, #386678, #343434);
+    background-color: rgba(26, 74, 127, 1);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    min-height: 100vh;
+
+    
+
+ }
+
+
+ .container{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+
+.register{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    /* /* margin: 0px 40px 0px 0px; */
+    padding: 0px 0px 15px 70%;
+    
+}
+
+.header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shrift span{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 100px 0px 0px 40px;
+    font-size: 40px;
+}
+
+.btn{
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold ;
+
+}
+.btn-register{
+    background-color: yellow;
+    color: black;
+    border: 3px solid yellow;
+}
+.btn-login{
+    border: 3px solid #ffffff;
+    color: white;
+}
+.icon-login{
+    color: white;
+}
+
+.links a{
+    margin: 0 5px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #110f0f;
+    text-shadow:#585757 -2px -4px 3px;
+    font-family: cursive;
+    background-image: url('/img/Happy-Yellow-Smiley-PNG.png');
+    
+}
+
+.main-title{
+    max-width: 900px;
+    margin: 100px auto 0;
+    /* text-shadow:#585757 -2px -2px 2px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: beige;
+
+
+    
+}
+
+
+h1{
+    font-size: 48px;
+    font-size: bold;
+    text-shadow:#585757 -4px -4px 4px;
+
+}
+section img{
+    background-size: 10%; 
+    background-position: right; 
+    background-repeat: no-repeat;
+    padding: 0 10px 0 900px;
+}
+p{
+    text-shadow:#585757 -2px -2px 2px;
+    
+}
+
+.main-title p{
+    font-size: 26px;
+    margin: 30px 0;
+}
+
+.main-title .buttons a{
+    margin-right: 20px;
+    padding: 8px 60px;
+}
+
+.btn-register:hover{
+    border-color: black;
+    background-color: yellow;
+}
+
+.btn-login:hover{
+    border-color: black;
+}
+
+.brd{
+    border: 10px dashed #ffffff;
+    color: antiquewhite;
+    font-size: 50px;
+}

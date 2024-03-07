@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: linear-gradient(to bottom, #87CEEB, #FFFFFF);
+      /* Градиентный фон, имитирующий небо */
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* .container {
+      background: rgba(255, 255, 255, 0.7);
+      Добавляем прозрачность для контейнера
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    } */
+
+    h2 {
+      color: #333;
+      /* Цвет текста */
+    }
+
+    input[type="text"],
+    input[type="password"],
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #f27121;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #f05620;
+    }
+
+    p {
+      color: #333;
+      /* Цвет текста */
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #f27121;
+      text-decoration: none;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 24px;
+      transition: transform 0.3s ease, border-radius 0.3s ease;
+      /* Добавляем плавные переходы */
+      padding: 15px;
+      /* Возвращаем внутренний отступ */
+      background-color: #FFFFFF;
+      /* Фон иконок */
+    }
+
+    .social-icons a.facebook {
+      color: #3b5998;
+      /* Цвет Facebook */
+      border-radius: 50% 30% 50% 30%/30% 50% 30% 50%;
+      /* Оригинальная форма */
+    }
+
+    .social-icons a.google {
+      color: #DB4437;
+      /* Цвет Google */
+      border-radius: 50%;
+      /* Круглая форма */
+    }
+
+    .social-icons a.instagram {
+      color: #c13584;
+      /* Цвет Instagram */
+      border-radius: 40% 60% 40% 60%/60% 40% 60% 40%;
+      /* Оригинальная форма */
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      border-radius: 50%;
+      /* Изменяем форму при наведении */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Username</h2>
+    <input type="text" placeholder="Type your username">
+    <h2>Password</h2>
+    <input type="password" placeholder="Type your password">
+    <button>LOGIN</button>
+    <p>Or Sign Up Using</p>
+    <div class="social-icons">
+      <a href="second_page.html?social=facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="second_page.html?social=google" class="google"><i class="fab fa-google"></i></a>
+      <a href="second_page.html?social=instagram" class="instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p><a href="#">Forgot password?</a></p>
+    <p>Have not account yet?</p>
+    <button>SIGN UP</button>
+  </div>
+</body>
+
+</html>
